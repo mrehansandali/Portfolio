@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.intro .img{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.img img {
+    position: absolute;
+    z-index: 1;
+    width: 25vw;
+    border-radius: 50%;
+    border: 1vw solid rgb(42, 42, 44);
+}
+.intro .text {
+    font-size: 1.7vw;
+    background: rgb(255, 157, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 15vw;
+    margin-top: 8%;
+    margin-left: 22%;
+    width: 100%;
+    padding-left: 10%;
+}
+.intro .text h1 {
+    margin-top: 6%;
+}
+.intro .text p {
+    font-size: 2.8vw;
+    margin-top: -2%;
+}
+.whitebox {
+    width: 65vw;
+}
+.whitebox .heading {
+    background-color: rgb(255, 157, 1);
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 50%;
+    margin-right: 20%;
+}
+.whitebox .heading  h1 {
+    margin-left: 55%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.matric{
+    margin-top: 8%;
+}
+.matric .head h1 {
+    text-align: center;
+    font-size: 3vw;
+    border: 0.2vw solid black;
+    margin: 0 30%;
+    background-color: rgb(255, 157, 1);
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1.4vw;
+    margin-top: 5%;
+    text-align: center;
+}
+.whitebox .myProjects {
+    background-color: rgb(255, 157, 1);
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+.whitebox .myProjects  h1 {
+    margin-left: 55%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.MPcontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.4vw;
+    margin: 3% 0;
+}
+.MPcontent a {
+    text-decoration: none;
+    color: blue;
+    font-size: 2vw;
+}
+
+.blackbox {
+    width: 35vw;
+    background-color: rgb(42, 42, 44);
+}
+.blackbox .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blackbox .contact .heading h1 {
+    font-size: 3.5vw;
+    color: white;
+}
+.blackbox .contact .heading {
+    border: 0.4vw solid rgb(255, 157, 1);
+    padding: 0 4%;
+    margin-top: 80%;
+}
+.blackbox .contact .content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 5%;
+}
+.blackbox .skills .heading {
+    border: 0.4vw solid rgb(255, 157, 1);
+    padding: 0 18%;
+    margin-top: 10%;
+}
+.blackbox .skills .heading h1 {
+    font-size: 3.5vw;
+    color: white;
+}
+.blackbox .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    color: white;
+    margin: 10% 0;
+}
+.skills .stars img {
+    width: 4vw;
+}
+.footer{
+    background-color: rgb(255, 157, 1);
+}
+.git {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.git h1 {
+    font-size: 3.8vw;
+}
+.git a {
+    text-decoration: none;
+    color: black;
+}
+.git img {
+    width: 5vw;
+    cursor: pointer;
+}
+
+@media (max-width:420px) {
+    .img img {
+        width: 35vw;
+    }
+    .intro .img{
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+    .intro .text{
+        font-size: 3.5vw;
+        height: 25vw;
+        margin-top: 11%;
+        padding-left: 20%;
+    }
+    .intro .text h1 {
+        margin-top: 3%;
+    }
+    .intro .text p {
+        margin-top: -5%;
+    }
+    .whitebox .heading {
+        font-size: 3vw;
+        margin-top: 75%;
+        margin-right: 7%;
+    }
+    .whitebox .heading  h1 {
+        margin-left: 35%;
+    }
+    .matric{
+        margin-top: 8%;
+    }
+    .matric .head h1 {
+        font-size: 6vw;
+        padding: 0 10%;
+        margin: 0 10%;
+    }
+    .content {
+        font-size: 3vw;
+        margin-top: 1%;
+    }
+    .whitebox .myProjects {
+        font-size: 3vw;
+        margin-top: 5%;
+        margin-right: 7%;
+    }
+    .whitebox .myProjects  h1 {
+        margin-left: 18%;
+    }
+    .MPcontent{
+        justify-content: space-between;
+        font-size: 2vw;
+    }
+    .MPcontent a {
+        font-size: 3vw;
+    }
+    .blackbox .contact .heading h1 {
+        font-size: 4.5vw;
+    }
+    .blackbox .contact .content h1 {
+        font-size: 4.5vw;
+    }
+    .blackbox .contact .content{
+        margin-top: 20%;
+    }
+    .blackbox .contact .heading {
+        padding: 0 2%;
+        margin-top: 140%;
+    }
+    #mail{
+        font-size: 2.3vw;
+    }
+    .blackbox .skills .heading{
+        margin-top: 80%;
+    }
+    .blackbox .skills .heading h1 {
+        font-size: 4.5vw;
+    }
+    .skills .content {
+        font-size: 4vw;
+        margin: 28% 0;
+    }
+    .stars {
+        margin-top: 15%;
+    }
+    .git h1 {
+        font-size: 5vw;
+    }
+    .git img {
+        width: 8vw;
+    }
+}
